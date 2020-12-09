@@ -1,0 +1,1 @@
+uwsgi --http :8000 --wsgi-file Newton/Newton/uwsgi.py --master --processes 4 --threads 2 --stats 127.0.0.1:9000
